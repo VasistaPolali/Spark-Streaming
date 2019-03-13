@@ -17,6 +17,7 @@ The Spark application is agnostic of the data source into Kinesis and the schema
 -   The batch interval is specified by "batchInterval" property in application.conf 
 - 
 **Running the Spark Application**
+
 -The main class is "com.project.app.Main" 
 -Pass the "application.conf" file from resources as argument for every unique stream and environment.
 
