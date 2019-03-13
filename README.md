@@ -4,6 +4,7 @@
 The repo contains the code to Run a Spark-Streaming application for Kinesis streams with Yarn-Cluster.
 
 **Spark Application** 
+
 The Spark-Streaming application receives Dstreams from a Kinesis receiver and loads it into a database table. Snowflake data warehouse has been used as an example.
 
 The Spark application is agnostic of the data source into Kinesis and the schema.
